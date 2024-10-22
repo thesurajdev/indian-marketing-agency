@@ -3,27 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Indian Marketing Agency - Offering top-notch digital marketing services like SEO optimization, social media marketing, and PPC advertising to boost your business's online presence.">
+    <meta name="description" content="Indian Marketing Agency - Offering top-notch digital marketing services like SEO, social media marketing, and PPC advertising to boost your business's online presence.">
     <meta name="keywords" content="Indian Marketing Agency, Digital Marketing, SEO, Social Media Marketing, PPC Advertising, Online Marketing, Marketing Solutions India">
     <meta name="author" content="Indian Marketing Agency">
     <title>Indian Marketing Agency - Grow Your Business with Expert Digital Marketing</title>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://adzola.in/">
-    <meta property="og:title" content="Indian Marketing Agency - Digital Marketing Experts">
-    <meta property="og:description" content="We offer expert digital marketing services like SEO, social media management, and PPC advertising to help your business succeed online.">
-    <meta property="og:image" content="https://source.unsplash.com/1600x800/?marketing,advertising">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://adzola.in/">
-    <meta property="twitter:title" content="Indian Marketing Agency - Digital Marketing Experts">
-    <meta property="twitter:description" content="We offer expert digital marketing services like SEO, social media management, and PPC advertising to help your business grow.">
-    <meta property="twitter:image" content="https://source.unsplash.com/1600x800/?marketing,advertising">
-
+    <!-- CSS Styles -->
     <style>
-        /* CSS Styles */
+        /* Reset */
         * {
             margin: 0;
             padding: 0;
@@ -32,9 +19,9 @@
 
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             background-color: #f4f4f4;
-            color: #333; /* Ensuring text is visible */
+            color: #333;
+            line-height: 1.6;
         }
 
         .container {
@@ -70,17 +57,14 @@
         }
 
         .hero {
-            background-image: url('https://source.unsplash.com/1600x800/?marketing,advertising');
-            background-size: cover;
-            background-position: center;
+            background-color: #003366;
             height: 60vh;
             color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            background-blend-mode: darken;
-            background-color: rgba(0, 51, 102, 0.7); /* Darken background for text visibility */
+            padding: 20px;
         }
 
         .hero h2 {
@@ -234,12 +218,11 @@
         </div>
     </footer>
 
+    <!-- JS for smooth scrolling -->
     <script>
-        // JavaScript: Optional Interactive Features (e.g., smooth scroll)
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
